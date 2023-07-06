@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SUMMER STORE</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <!-- header section -->
+        <header>
+            <input type="checkbox" name="" id="toggler">
+            <label for="toggler" class="fa fa-bars"></label>
+
+            <a href="#" class="logo">Summer Store</a>
+            <nav class="navbar">
+                <a href="Home">Home</a>
+                <a href="about.html">About</a>
+                <a href="product.html">Products</a>
+                <a href="contacts.html">Contacts</a>
+            </nav>
+            <div class="icons">
+                <!-- <a href="#" class="fa fa-shopping-cart"><span class="badge" id="count"></span></a> -->
+                <button><i class="fa fa-sign-in login-btn" id="login-btn"></i></button>
+            </div>
+        </header>
+        
+        <div class="formcontainer">
+            <div class="forms">
+                <div class="form login">
+                    <span class="title">Login</span>
+                    <form action="#">
+                        <div class="input-field">
+                            <input type="text" placeholder="Enter your email" required>
+                            <i class="uil uil-envelope icon"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" class="password" placeholder="Enter your password" required>
+                            <i class="uil uil-lock icon"></i>
+                            <i class="uil uil-eye-slash showHidePw"></i>
+                        </div>
+                        <div class="checkbox-text">
+                            <div class="checkbox-content">
+                                <input type="checkbox" id="logCheck">
+                                <label for="logCheck" class="text">Remember me</label>
+                            </div>
+                            
+                            <a href="#" class="text">Forgot password?</a>
+                        </div>
+                        <div class="input-field button">
+                            <input type="button" value="Login">
+                        </div>
+                    </form>
+                    <div class="login-signup">
+                        <span class="text">Not a member?
+                            <a href="#" class="text signup-link">Signup Now</a>
+                        </span>
+                    </div>
+                </div>
+                <!-- Registration Form -->
+                <div class="form signup">
+                    <span class="title">Registration</span>
+                    <form action="#">
+                        <div class="input-field">
+                            <input type="text" placeholder="Enter your name" required>
+                            <i class="uil uil-user"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="text" placeholder="Enter your email" required>
+                            <i class="uil uil-envelope icon"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" class="password" placeholder="Create a password" required>
+                            <i class="uil uil-lock icon"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" class="password" placeholder="Confirm a password" required>
+                            <i class="uil uil-lock icon"></i>
+                            <i class="uil uil-eye-slash showHidePw"></i>
+                        </div>
+                        <div class="checkbox-text">
+                            <div class="checkbox-content">
+                                <input type="checkbox" id="termCon">
+                                <label for="termCon" class="text">I accepted all terms and conditions</label>
+                            </div>
+                        </div>
+                        <div class="input-field button">
+                            <input type="button" value="Signup">
+                        </div>
+                    </form>
+                    <div class="login-signup">
+                        <span class="text">Already a member?
+                            <a href="#" class="text login-link">Login Now</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="landing" id="landing">
+            <div class="home">
+                <h3>Nvidia Geforce RTX 3060</h3>
+                <span>The fastest GPU ever</span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum consequatur officia in quisquam. Debitis aut doloremque et magni voluptatem fuga!</p>
+                <a href="product.html" class="shop-now">shop now</a>
+            </div>
+        </section>
+        
+
+        <section class="footer">
+            <div class="box-container">
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="index.html">home</a>
+                <a href="about.html">about</a>
+                <a href="product.html">products</a>
+                <a href="contacts.html">contacts</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">my account</a>
+            </div>
+            <div class="box">
+                <h3>locations</h3>
+                <a href="#">nairobi</a>
+                <a href="#">naivasha</a>
+                <a href="#">mombasa</a>
+                <a href="#">meru</a>
+            </div>
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#">0200-343-343</a>
+                <a href="#">example@gmail.com</a>
+                <a href="#">luthuli avenue</a>
+                <img width="200px" src="payments.png" alt="">
+            </div>
+            <div class="credit">&copy;2023<span>|All Rights Reserved</span></div>
+            </div>
+        </section>
+        
+
+        <!-- <script src="./main.js"></script> -->
+        <script src="login.js"></script>
+    </body>
+</html>
